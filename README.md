@@ -15,7 +15,7 @@
 Click [here](https://clone-7c5a9.web.app/) to view live app
 
 ### ✨ Demo
-![](https://i.ibb.co/nCypCGL/Amazone-Clone.gif)
+![Demo](https://i.ibb.co/nCypCGL/Amazone-Clone.gif)
 
 ## Install
 
