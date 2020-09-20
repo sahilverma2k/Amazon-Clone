@@ -13,7 +13,6 @@ function Header() {
   const login = () => {
     if (user) {
       auth().signOut();
-      history.push("/login");
     }
   };
   return (

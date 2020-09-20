@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     // will only run once when the app component loads...
 
-    auth.onAuthStateChanged((authUser) => {
+    const unsubscribe = auth.onAuthStateChanged((authUser) => {
       console.log("THE USER IS >>> ", authUser);
 
       if (authUser) {
@@ -33,6 +33,10 @@ function App() {
         });
       }
     });
+
+    return () => {
+      unsubscribe();
+    }
   }, []);
 
   return (
