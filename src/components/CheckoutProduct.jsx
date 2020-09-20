@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import "../styles/CheckoutProduct.css";
 import { useStateValue } from "../providers/StateProvider";
